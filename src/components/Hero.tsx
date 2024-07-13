@@ -5,7 +5,7 @@ import { CustomButton } from "@/components";
 
 const Hero = () => {
   return (
-    <div className="bg-custom-gray relative">
+    <div className=" relative">
       <div className="flex xl:flex-row flex-col gap-5 z-0 max-w-[1600px] mx-auto">
         <div className="flex-1 pt-36 px-6 sm:px-16">
           <h1 className="2xl:text-[72px] sm:text-[64px] text-[50px] font-extrabold">

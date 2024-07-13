@@ -12,7 +12,13 @@ import {
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { CustomButton } from "@/components";
 
-const navigation = [
+interface Navlinks {
+  name: string;
+  href: string;
+  current: boolean;
+}
+
+const navigation: Navlinks[] = [
   { name: "Home", href: "#", current: false },
   { name: "Services", href: "#", current: false },
   { name: "Contact Us", href: "#", current: false },
